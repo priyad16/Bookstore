@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <div id="navigation">
+            <h1>My Bookstore</h1>
+            <div id="pages">
+                <button><a href="./index.html">All Books</a></button>
+                <button>Categories</button>
+                <button>Filter by Likes</button>
+                <button>Add new Book</button>
+            </div>
+        </div>
+        <div id="content">
+            <div id="top">
+            <div id="count">
+                <div id="selfhelp" class="countcard">
+                    <h3>3</h3>
+                    <p>TOTAL BOOKS IN SELF HELP</p>
+                </div>
+                <div id="fiction" class="countcard">
+                    <h3>2</h3>
+                    <p>TOTAL BOOKS IN FICTION</p>
+                </div>
+                <div id="other" class="countcard">
+                    <h3>2</h3>
+                    <p>TOTAL BOOKS IN OTHER</p>
+                </div>
+                <div id="programming" class="countcard">
+                    <h3>1</h3>
+                    <p>TOTAL BOOKS IN PROGRAMMING</p>
+                </div>
+                <div id="science" class="countcard">
+                    <h3>1</h3>
+                    <p>TOTAL BOOKS IN SCIENCE</p>
+                </div>
+
+                
+            </div>
+            <h2>Recent Books</h2>
+            <input type="text" placeholder="Search books by title or author..." id="inpbtn">
+            </div>
+            <div id="cdiv"></div>
+            <!-- <div id="card">
+                <div id="pic"></div>
+                <div id="info">
+                    <div id="author">james</div>
+                    <span id="type">self</span>
+                    <div id="likes">
+                        <div id="heart">
+                        <i class="fa-solid fa-heart"></i>
+                        <p id="count">100</p>
+                        </div>
+                        <button id="like">LIKE</button>
+                    </div>
+                </div>
+            </div>-->
+        </div> 
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

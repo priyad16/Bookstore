@@ -46,7 +46,7 @@ window.onload = function () {
       let count = parseInt(countEl.textContent);
       countEl.textContent = count + 1;
 
-      let idofc = card.dataset.id;  // ✅ NOW THIS WORKS!
+      let idofc = card.dataset.id;  
 
       for (let x in a) {
         if (a[x].id == idofc) {

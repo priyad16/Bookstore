@@ -151,10 +151,30 @@ a{
     text-decoration: none;
     color: white;
 }
-button:hover {
+.navbtn:hover {
   background-color: blue;
   color: white;
 }
+
+
+.navbtn {
+ background-color: #2a2d3e;
+ color: #d1d5e0;
+ border:1px solid #4a4e69;
+  padding: 0.5em 1em;         
+  text-decoration: none;      
+  margin-right: 5px;
+  border-radius: 4px;          
+  cursor: pointer;             
+  display: inline-block;      
+}
+
+.navbtn:hover {
+  background-color: blue;  /* your hover background */
+  color: white; 
+  outline: 1px solid whitesmoke;           /* your hover text color */
+}
+
 
 .card{
     border: 1px solid grey;

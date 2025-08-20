@@ -75,6 +75,29 @@ inp.addEventListener('input', () => {
   display(books,content);
 });
 
+function display(books,content) {
+  content.innerHTML = "";
+  books.forEach((ele) => {
+    content.innerHTML += `
+      <div class="card" data-id="${ele.id}">
+        <div class="pic">${ele.name}</div>
+        <div class="info">
+          <div class="author">${ele.author}</div>
+          <span class="type">${ele.category}</span>
+          <div class="likes">
+            <div class="heart">
+              <i class="fa-solid fa-heart"></i>
+              <p class="count">${ele.likes}</p>
+            </div>
+            <button class="like">LIKE</button>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+  
+}
+
 
 
 
